@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.qingri.app.tests">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+    <application android:label="轻日测试" />
+    <instrumentation android:name="cn.qingri.app.tests.SmokeInstrumentation" android:targetPackage="cn.qingri.app" />
+    <instrumentation android:name="cn.qingri.app.tests.UpgradeInstrumentation" android:targetPackage="cn.qingri.app" />
+    <instrumentation android:name="cn.qingri.app.tests.RecordInstrumentation" android:targetPackage="cn.qingri.app" />
+    <instrumentation android:name="cn.qingri.app.tests.RecordsUiInstrumentation" android:targetPackage="cn.qingri.app" />
+    <instrumentation android:name="cn.qingri.app.tests.AgentInstrumentation" android:targetPackage="cn.qingri.app" />
+    <instrumentation android:name="cn.qingri.app.tests.AgentUiInstrumentation" android:targetPackage="cn.qingri.app" />
+</manifest>

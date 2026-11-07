@@ -1,0 +1,5 @@
+.tools/
+build/
+*.keystore
+*.jks
+local.properties
